@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS25 Denim Kataloğu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SS25 Denim Koleksiyonu</h1>
+        <nav>
+            <button class="filter-button" data-gender="all">Tümü</button>
+            <button class="filter-button" data-gender="kadın">Kadın</button>
+            <button class="filter-button" data-gender="erkek">Erkek</button>
+            <button class="filter-button" data-category="şort-kadın">Kadın Şort</button>
+            <button class="filter-button" data-category="şort-erkek">Erkek Şort</button>
+            <input type="text" id="search-input" placeholder="Model ara..." class="filter-input">
+        </nav>
+    </header>
+
+    <main>
+        <section id="kadın-denimler" class="denim-section">
+            <h2>Kadın Denim Modelleri</h2>
+            <div id="kadın-denim-listesi">
+                </div>
+        </section>
+
+        <section id="erkek-denimler" class="denim-section">
+            <h2>Erkek Denim Modelleri</h2>
+            <div id="erkek-denim-listesi">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Denim Kataloğu. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
