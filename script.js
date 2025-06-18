@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { category: "WIDE LEG", name: "Florida", image: "florida.webp", description: "Normal bel, geniş paça" },
             { category: "WIDE LEG", name: "Paloma", image: "paloma.webp", description: "Yüksek bel, geniş paça" },
             { category: "WIDE LEG", name: "Karen", image: "karen.webp", description: "Normal bel, geniş paça" },
-            { category: "WIDE LEG", name: "Kimberly", image: "kimberly.webp", description: "Yüksek bel, geniş paça" },
+            { category: "WIDE LEG", "name": "Kimberly", image: "kimberly.webp", description: "Yüksek bel, geniş paça" },
             { category: "WIDE LEG", name: "Miami", image: "miami.webp", description: "Normal bel, baggy, geniş paça" },
             { category: "WIDE LEG", name: "Joy", image: "joy.webp", description: "Normal bel, baggy, geniş paça" },
             { category: "WIDE LEG", name: "Liny", image: "liny.webp", description: "Düşük bel, rahat kesim, geniş paça" },
@@ -66,23 +66,23 @@ document.addEventListener('DOMContentLoaded', () => {
             { category: "BAGGY", name: "Wavy Extra Baggy", image: "wavyex.webp", description: "Normal bel, baggy, daralan paça" },
 
             // KADIN ŞORT KOLEKSİYONU
-            { category: "ŞORT", name: "Cherry", image: "cherry.webp", description: "Boyfriend, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT", name: "Rosie", image: "rosie.webp", description: "Mini Mom Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT", name: "Tyra", image: "tyra.webp", description: "Mom Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT", name: "Vivia Cuffed", image: "vivia_cuffed.webp", description: "Straight, Normal Bel, Cuffed" },
-            { category: "ŞORT", name: "Novella", image: "novella.webp", description: "Straight, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Fiora", image: "fiora.webp", description: "Rahat Kesim Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Verna", image: "verna.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Millie", image: "millie.webp", description: "Midi Mom Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT", name: "Heidi", image: "heidi.webp", description: "Rahat Kesim Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT", name: "Lidia", image: "lidia.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
-            { category: "ŞORT", name: "Clara", image: "clara.webp", description: "Mom Şort, Yüksek Bel, Düz / Cuffed Paça" },
-            { category: "ŞORT", name: "Melina", image: "melina.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
-            { category: "ŞORT", name: "Sasha", image: "sasha.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
-            { category: "ŞORT", name: "Eliana", image: "eliana.webp", description: "Straight, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Pixie", image: "pixie.webp", description: "Boyfriend, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Alexis", image: "alexis.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT", name: "Penny", image: "penny.webp", description: "Pilili Midi Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Cherry", image: "cherry.webp", description: "Boyfriend, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Rosie", image: "rosie.webp", description: "Mini Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Tyra", image: "tyra.webp", description: "Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Vivia Cuffed", image: "vivia_cuffed.webp", description: "Straight, Normal Bel, Cuffed" },
+            { category: "ŞORT-KADIN", name: "Novella", image: "novella.webp", description: "Straight, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Fiora", image: "fiora.webp", description: "Rahat Kesim Şort, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Verna", image: "verna.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Millie", image: "millie.webp", description: "Midi Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Heidi", image: "heidi.webp", description: "Rahat Kesim Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Lidia", image: "lidia.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "Clara", image: "clara.webp", description: "Mom Şort, Yüksek Bel, Düz / Cuffed Paça" },
+            { category: "ŞORT-KADIN", name: "Melina", image: "melina.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "Sasha", image: "sasha.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "Eliana", image: "eliana.webp", description: "Straight, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Pixie", image: "pixie.webp", description: "Boyfriend, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Alexis", image: "alexis.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "Penny", image: "penny.webp", description: "Pilili Midi Şort, Yüksek Bel, Düz Paça" },
         ],
         erkek: [
             // SKINNY
@@ -121,15 +121,15 @@ document.addEventListener('DOMContentLoaded', () => {
             { category: "COMFORT", name: "Hasan", image: "hasan.webp", description: "Klasik rahat kesim, büyük beden, düz paça" },
 
             // ERKEK ŞORT KOLEKSİYONU
-            { category: "ŞORT", name: "Hamburg", image: "hamburg.webp", description: "Loose, Normal Bel" },
-            { category: "ŞORT", name: "Rotterdam", image: "rotterdam.webp", description: "Loose, Normal Bel" },
-            { category: "ŞORT", name: "Houston", image: "houston.webp", description: "Loose, Normal Bel" },
-            { category: "ŞORT", name: "Dayton", image: "dayton.webp", description: "Slim Straight, Normal Bel" },
-            { category: "ŞORT", name: "Bremen", image: "bremen.webp", description: "Loose, Normal Bel" },
-            { category: "ŞORT", name: "Nicholas", image: "nicholas.webp", description: "Regular Straight, Normal Bel" },
-            { category: "ŞORT", name: "Brian", image: "brian.webp", description: "Slim Straight, Normal Bel" },
-            { category: "ŞORT", name: "Tim", image: "tim.webp", description: "Skinny, Normal Bel" },
-            { category: "ŞORT", name: "Lucas", image: "lucas.webp", description: "Slim Straight, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Hamburg", image: "hamburg.webp", description: "Loose, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Rotterdam", image: "rotterdam.webp", description: "Loose, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Houston", image: "houston.webp", description: "Loose, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Dayton", image: "dayton.webp", description: "Slim Straight, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Bremen", image: "bremen.webp", description: "Loose, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Nicholas", image: "nicholas.webp", description: "Regular Straight, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Brian", image: "brian.webp", description: "Slim Straight, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Tim", image: "tim.webp", description: "Skinny, Normal Bel" },
+            { category: "ŞORT-ERKEK", name: "Lucas", image: "lucas.webp", description: "Slim Straight, Normal Bel" },
         ]
     };
 
@@ -172,11 +172,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Kadın modelleri
         const kadınCategories = {};
         denimData.kadın.forEach(denim => {
-            // Cinsiyet filtresi (currentGenderFilter "all" veya "kadın" ise)
+            // Cinsiyet filtresi
             const passesGenderFilter = (currentGenderFilter === 'all' || currentGenderFilter === 'kadın');
             
-            // Kategori filtresi (currentCategoryFilter null ise tüm kategoriler geçer, değilse sadece o kategori)
-            const passesCategoryFilter = (currentCategoryFilter === null || denim.category === currentCategoryFilter);
+            // Kategori filtresi
+            // Eğer "ŞORT-KADIN" butonu seçiliyse, sadece denim.category "ŞORT-KADIN" ise geçer.
+            // Diğer durumlarda, genel kategori filtresi (null veya başka bir kategori) kontrol edilir.
+            const passesCategoryFilter = (
+                currentCategoryFilter === null || 
+                (currentCategoryFilter === 'ŞORT-KADIN' && denim.category === 'ŞORT-KADIN') ||
+                (currentCategoryFilter !== 'ŞORT-KADIN' && denim.category === currentCategoryFilter)
+            );
 
             // Arama terimi filtresi
             const passesSearchFilter = (searchTerm === '' || 
@@ -215,11 +221,17 @@ document.addEventListener('DOMContentLoaded', () => {
         // Erkek modelleri
         const erkekCategories = {};
         denimData.erkek.forEach(denim => {
-            // Cinsiyet filtresi (currentGenderFilter "all" veya "erkek" ise)
+            // Cinsiyet filtresi
             const passesGenderFilter = (currentGenderFilter === 'all' || currentGenderFilter === 'erkek');
 
-            // Kategori filtresi (currentCategoryFilter null ise tüm kategoriler geçer, değilse sadece o kategori)
-            const passesCategoryFilter = (currentCategoryFilter === null || denim.category === currentCategoryFilter);
+            // Kategori filtresi
+            // Eğer "ŞORT-ERKEK" butonu seçiliyse, sadece denim.category "ŞORT-ERKEK" ise geçer.
+            // Diğer durumlarda, genel kategori filtresi (null veya başka bir kategori) kontrol edilir.
+            const passesCategoryFilter = (
+                currentCategoryFilter === null || 
+                (currentCategoryFilter === 'ŞORT-ERKEK' && denim.category === 'ŞORT-ERKEK') ||
+                (currentCategoryFilter !== 'ŞORT-ERKEK' && denim.category === currentCategoryFilter)
+            );
 
             // Arama terimi filtresi
             const passesSearchFilter = (searchTerm === '' || 
@@ -257,8 +269,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Filtrelenen içerik yoksa ilgili bölümleri gizle
         // Bu bölüm, filtrelere ve arama sonucuna göre display'i ayarlar.
-        const showKadınSection = (currentGenderFilter === 'all' || currentGenderFilter === 'kadın') && Object.keys(kadınCategories).length > 0;
-        const showErkekSection = (currentGenderFilter === 'all' || currentGenderFilter === 'erkek') && Object.keys(erkekCategories).length > 0;
+        const showKadınSection = (currentGenderFilter === 'all' || currentGenderFilter === 'kadın' || currentCategoryFilter === 'ŞORT-KADIN') && Object.keys(kadınCategories).length > 0;
+        const showErkekSection = (currentGenderFilter === 'all' || currentGenderFilter === 'erkek' || currentCategoryFilter === 'ŞORT-ERKEK') && Object.keys(erkekCategories).length > 0;
 
         if (searchTerm !== '') { // Arama yapılıyorsa her ikisini de göster, boşsa filtreye göre
             kadınSection.classList.remove('hidden');
