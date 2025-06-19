@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
 
     const denimData = {
@@ -67,22 +68,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // KADIN ŞORT KOLEKSİYONU
             { category: "ŞORT-KADIN", name: "Cherry", image: "cherry.webp", description: "Boyfriend, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "rosie", image: "rosie.webp", description: "Mini Mom Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "tyra", image: "tyra.webp", description: "Mom Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "vivia Cuffed", image: "vivia_cuffed.webp", description: "Straight, Normal Bel, Cuffed" },
-            { category: "ŞORT-KADIN", name: "novella", image: "novella.webp", description: "Straight, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "rosie", image: "Rosie.webp", description: "Mini Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "tyra", image: "Tyra.webp", description: "Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "vivia Cuffed", image: "Vivia_Cuffed.webp", description: "Straight, Normal Bel, Cuffed" },
+            { category: "ŞORT-KADIN", name: "novella", image: "Novella.webp", description: "Straight, Normal Bel, Düz Paça" },
             { category: "ŞORT-KADIN", name: "Fiora", image: "fiora.webp", description: "Rahat Kesim Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "verna", image: "verna.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "millie", image: "millie.webp", description: "Midi Mom Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "verna", image: "Verna.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "millie", image: "Millie.webp", description: "Midi Mom Şort, Yüksek Bel, Düz Paça" },
             { category: "ŞORT-KADIN", name: "Heidi", image: "Heidi.webp", description: "Rahat Kesim Şort, Yüksek Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "lidia", image: "lidia.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
-            { category: "ŞORT-KADIN", name: "Clara", image: "clara.webp", description: "Mom Şort, Yüksek Bel, Düz / Cuffed Paça" },
-            { category: "ŞORT-KADIN", name: "melina", image: "melina.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
-            { category: "ŞORT-KADIN", name: "sasha", image: "sasha.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "lidia", image: "Lidia.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "Clara", image: "Clara.webp", description: "Mom Şort, Yüksek Bel, Düz / Cuffed Paça" },
+            { category: "ŞORT-KADIN", name: "melina", image: "Melina.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
+            { category: "ŞORT-KADIN", name: "sasha", image: "Sasha.webp", description: "Boyfriend, Normal Bel, Geniş Paça" },
             { category: "ŞORT-KADIN", name: "Eliana", image: "eliana.webp", description: "Straight, Normal Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "pixie", image: "pixie.webp", description: "Boyfriend, Normal Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "pixie", image: "Pixie.webp", description: "Boyfriend, Normal Bel, Düz Paça" },
             { category: "ŞORT-KADIN", name: "Alexis", image: "Alexis.webp", description: "Bermuda Şort, Normal Bel, Düz Paça" },
-            { category: "ŞORT-KADIN", name: "penny", image: "penny.webp", description: "Pilili Midi Şort, Yüksek Bel, Düz Paça" },
+            { category: "ŞORT-KADIN", name: "penny", image: "Penny.webp", description: "Pilili Midi Şort, Yüksek Bel, Düz Paça" },
         ],
         erkek: [
             // SKINNY
